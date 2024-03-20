@@ -3,9 +3,15 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Logo from "./../../public/images/logo.svg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => {

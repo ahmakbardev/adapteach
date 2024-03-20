@@ -7,14 +7,22 @@ export default function Home() {
     <main className="flex pt-4 flex-col">
       <div className="flex px-28 2xl:px-48 min-h-screen items-center justify-between">
         <div className="basis-1/2 flex justify-start flex-col gap-4">
-          <h1 className="text-5xl font-semibold">
+          <h1 data-aos="fade-up" className="text-5xl font-semibold">
             Inovasi Cerdas AI untuk Pendidikan Indonesia
           </h1>
-          <p className="text-gray-500 text-lg">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="100"
+            className="text-gray-500 text-lg"
+          >
             AdapTeach: Transformasi Pendidikan Indonesia dengan Keunggulan AI.
             Bergabunglah untuk masa depan pendidikan yang inovatif.
           </p>
-          <button className="bg-primary w-fit mt-5 py-3 px-8 rounded-lg text-white  hover:bg-primary/75 hover:-translate-y-1 transition-all ease-in-out shadow-xl">
+          <button
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="bg-primary w-fit mt-5 py-3 px-8 rounded-lg text-white  hover:bg-primary/75 hover:-translate-y-1 transition-all ease-in-out shadow-xl"
+          >
             Join Beta
           </button>
         </div>
@@ -30,6 +38,8 @@ export default function Home() {
               style={{ maxWidth: "100%", height: "auto" }}
             /> */}
           <img
+            data-aos="fade-up"
+            data-aos-delay="300"
             src="/img1.png"
             className="object-contain w-full rounded-xl"
             alt=""
@@ -40,6 +50,8 @@ export default function Home() {
             alt=""
           /> */}
           <Image
+            data-aos="fade-up"
+            data-aos-delay="400"
             alt=""
             src="/img2.png"
             className="absolute w-3/4 -left-28 -bottom-36 object-contain rounded-xl 2xl:-left-52 2xl:-bottom-52 2xl:w-2/3"
@@ -48,6 +60,8 @@ export default function Home() {
           />
 
           <img
+            data-aos="fade-up"
+            data-aos-delay="500"
             src="/img3.png"
             className="absolute w-3/4 -right-28 -top-28 object-contain rounded-xl 2xl:-top-30 2xl:w-2/3"
             alt=""
@@ -55,15 +69,25 @@ export default function Home() {
         </div>
       </div>
       <div className="flex px-28 2xl:px-48 flex-col justify-between">
-        <h1 className="text-primary my-3 font-bold text-start">Fitur Kami</h1>
+        <h1
+          data-aos="fade-up"
+          data-aos-delay="100"
+          className="text-primary my-3 font-bold text-start"
+        >
+          Fitur Kami
+        </h1>
         <div className="flex justify-between gap-10">
           <div className="basis-1/2">
-            <h1 className="text-3xl font-semibold">
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="100"
+              className="text-3xl font-semibold"
+            >
               Dengan mengintegrasikan AI kami memiliki berbagai fitur canggih
             </h1>
           </div>
           <div className="basis-1/2">
-            <p>
+            <p data-aos="fade-up" data-aos-delay="100">
               Dengan fitur-fitur unggulan ini, AdapTeach mewujudkan visi
               pendidikan yang modern, adaptif, dan memberdayakan guru.
             </p>
@@ -72,78 +96,120 @@ export default function Home() {
         <div className="flex justify-between my-10">
           <div className="basis-2/5 relative">
             <img
+              data-aos="fade-up"
+              data-aos-delay="100"
               src="/img-feat-1.png"
               className="w-full object-contain rounded-lg"
               alt=""
             />
             <img
+              data-aos="fade-up"
+              data-aos-delay="500"
               src="/img-feat-1-1.png"
               className="absolute w-1/2 -right-28 top-10 object-contain rounded-xl"
               alt=""
             />
             <img
+              data-aos="fade-up"
+              data-aos-delay="600"
               src="/img-feat-1-2.png"
               className="absolute w-1/2 -left-28 top-36 object-contain rounded-xl"
               alt=""
             />
             <img
+              data-aos="fade-up"
+              data-aos-delay="700"
               src="/img-feat-1-3.png"
               className="absolute w-1/2 -right-28 top-60 object-contain rounded-xl"
               alt=""
             />
           </div>
           <div className="basis-2/5 flex flex-col justify-center">
-            <h1 className="text-3xl font-semibold">
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="text-3xl font-semibold"
+            >
               Pembuatan RPP yang Efisien
             </h1>
-            <p className="my-5 text-gray-500">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="300"
+              className="my-5 text-gray-500"
+            >
               AdapTeach menyediakan alat pintar untuk membuat Rencana
               Pembelajaran Harian (RPP) dengan mudah dan efisien. Dengan
               menggunakan teknologi AI, guru dapat menghasilkan RPP yang sesuai
               dengan kurikulum terbaru dalam waktu singkat.
             </p>
-            <button className="bg-primary w-fit mt-5 py-3 px-8 rounded-lg text-white hover:bg-primary/75 hover:-translate-y-1 transition-all ease-in-out shadow-xl">
+            <button
+              data-aos="fade-up"
+              data-aos-delay="300"
+              className="bg-primary w-fit mt-5 py-3 px-8 rounded-lg text-white hover:bg-primary/75 hover:-translate-y-1 transition-all ease-in-out shadow-xl"
+            >
               Coba Fitur
             </button>
           </div>
         </div>
         <div className="flex justify-between my-10">
           <div className="basis-2/5 flex flex-col justify-center">
-            <h1 className="text-3xl font-semibold">
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="100"
+              className="text-3xl font-semibold"
+            >
               Pembuatan RPP yang Efisien
             </h1>
-            <p className="my-5 text-gray-500">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="my-5 text-gray-500"
+            >
               AdapTeach menyediakan alat pintar untuk membuat Rencana
               Pembelajaran Harian (RPP) dengan mudah dan efisien. Dengan
               menggunakan teknologi AI, guru dapat menghasilkan RPP yang sesuai
               dengan kurikulum terbaru dalam waktu singkat.
             </p>
-            <button className="bg-primary w-fit mt-5 py-3 px-8 rounded-lg text-white hover:bg-primary/75 hover:-translate-y-1 transition-all ease-in-out shadow-xl">
+            <button
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="bg-primary w-fit mt-5 py-3 px-8 rounded-lg text-white hover:bg-primary/75 hover:-translate-y-1 transition-all ease-in-out shadow-xl"
+            >
               Coba Fitur
             </button>
           </div>
           <div className="basis-2/5 relative">
             <img
+              data-aos="fade-up"
+              data-aos-delay="200"
               src="/img-feat-2.png"
               className="w-full object-contain rounded-lg"
               alt=""
             />
             <img
+              data-aos="fade-up"
+              data-aos-delay="400"
               src="/img-feat-2-1.png"
               className="absolute w-1/2 -right-28 top-0 object-contain rounded-xl"
               alt=""
             />
             <img
+              data-aos="fade-up"
+              data-aos-delay="500"
               src="/img-feat-2-2.png"
               className="absolute w-1/2 -left-28 top-20 object-contain rounded-xl"
               alt=""
             />
             <img
+              data-aos="fade-up"
+              data-aos-delay="600"
               src="/img-feat-2-3.png"
               className="absolute w-1/2 -right-28 top-40 object-contain rounded-xl"
               alt=""
             />
             <img
+              data-aos="fade-up"
+              data-aos-delay="700"
               src="/img-feat-2-4.png"
               className="absolute w-1/2 -left-28 top-64 object-contain rounded-xl"
               alt=""
@@ -155,15 +221,31 @@ export default function Home() {
         id="manfaat"
         className="flex px-28 2xl:px-48 min-h-screen flex-col py-36 text-white bg-custom-dark"
       >
-        <h1 className="text-secondary my-3 font-bold text-start">Fitur Kami</h1>
+        <h1
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-anchor-placement="bottom-center"
+          className="text-secondary my-3 font-bold text-start"
+        >
+          Fitur Kami
+        </h1>
         <div className="flex justify-between">
           <div className="basis-1/2">
-            <h1 className="text-3xl font-semibold">
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-anchor-placement="bottom-center"
+              className="text-3xl font-semibold"
+            >
               AdapTeach memberikan beberapa keunggulan untuk pendidikan
             </h1>
           </div>
           <div className="basis-1/2">
-            <p>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-anchor-placement="bottom-center"
+            >
               Dengan fitur-fitur canggihnya, AdapTeach mampu mempercepat
               transformasi pendidikan dengan cara yang efektif. Berikut adalah
               beberapa keunggulan yang dapat kami tawarkan.
@@ -171,7 +253,12 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-wrap my-10 justify-center gap-3 items-center">
-          <div className="flex-initial w-[22.9rem] min-h-60 p-5 flex-col rounded-lg bg-white/10">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-anchor-placement="top-center"
+            className="flex-initial w-[22.9rem] min-h-60 p-5 flex-col rounded-lg bg-white/10"
+          >
             <img
               src="/img-ben-1.png"
               className="w-12 h-12 rounded-full bg-white"
@@ -185,7 +272,12 @@ export default function Home() {
               Indonesia.
             </p>
           </div>
-          <div className="flex-initial w-[22.9rem] min-h-60 p-5 flex-col rounded-lg bg-white/10">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-anchor-placement="top-center"
+            className="flex-initial w-[22.9rem] min-h-60 p-5 flex-col rounded-lg bg-white/10"
+          >
             <img
               src="/img-ben-2.png"
               className="w-12 h-12 rounded-full bg-white"
@@ -197,7 +289,12 @@ export default function Home() {
               penting dalam pembelajaran.{" "}
             </p>
           </div>
-          <div className="flex-initial w-[22.9rem] min-h-60 p-5 flex-col rounded-lg bg-white/10">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-anchor-placement="top-center"
+            className="flex-initial w-[22.9rem] min-h-60 p-5 flex-col rounded-lg bg-white/10"
+          >
             <img
               src="/img-ben-3.png"
               className="w-12 h-12 rounded-full bg-white"
@@ -209,7 +306,12 @@ export default function Home() {
               mendapatkan materi sesuai pemahaman siswa.
             </p>
           </div>
-          <div className="flex-initial w-[22.9rem] min-h-60 p-5 flex-col rounded-lg bg-white/10">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-anchor-placement="center-bottom"
+            className="flex-initial w-[22.9rem] min-h-60 p-5 flex-col rounded-lg bg-white/10"
+          >
             <img
               src="/img-ben-4.png"
               className="w-12 h-12 rounded-full bg-white"
@@ -223,7 +325,12 @@ export default function Home() {
               siswa menjadi kreatif.
             </p>
           </div>
-          <div className="flex-initial w-[22.9rem] min-h-60 p-5 flex-col rounded-lg bg-white/10">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="600"
+            data-aos-anchor-placement="center-bottom"
+            className="flex-initial w-[22.9rem] min-h-60 p-5 flex-col rounded-lg bg-white/10"
+          >
             <img
               src="/img-ben-5.png"
               className="w-12 h-12 rounded-full bg-white"
@@ -476,16 +583,16 @@ export default function Home() {
         </section>
       </div>
       <div className="flex px-28 2xl:px-48 flex-col pt-20">
-        <h1 className="text-primary my-3 font-bold text-start">Our Team</h1>
+        <h1 data-aos="fade-up" data-aos-delay="100" className="text-primary my-3 font-bold text-start">Our Team</h1>
         <div className="flex justify-between gap-10">
           <div className="basis-1/2">
-            <h1 className="text-3xl font-semibold">
+            <h1 data-aos="fade-up" data-aos-delay="200" className="text-3xl font-semibold">
               Kami didukung oleh team yang berdedikasi untuk mendorong inovasi
               pendidikan
             </h1>
           </div>
           <div className="basis-1/2">
-            <p>
+            <p data-aos="fade-up" data-aos-delay="200">
               Bersama-sama, tim kami berkomitmen untuk merevolusi pendidikan dan
               memberdayakan guru dan siswa dengan alat yang mereka butuhkan
               untuk sukses di era digital.
@@ -493,7 +600,7 @@ export default function Home() {
           </div>
         </div>
         <div className="pt-20 flex items-center justify-center">
-          <div className="flex-shrink-0 m-6 w-72 group/raihan group/span relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-2xl">
+          <div data-aos="fade-up" data-aos-delay="100" data-aos-anchor-placement="center-bottom" className="flex-shrink-0 m-6 w-72 group/raihan group/span relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-2xl">
             <div className="relative flex items-center justify-center">
               <img
                 className="relative w-full object-cover"
@@ -531,7 +638,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex-shrink-0 m-6 w-72 group/raihan group/span relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-2xl">
+          <div data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="center-bottom" className="flex-shrink-0 m-6 w-72 group/raihan group/span relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-2xl">
             <div className="relative flex items-center justify-center">
               <img
                 className="relative w-full"
@@ -569,7 +676,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex-shrink-0 m-6 w-72 group/raihan group/span relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-2xl">
+          <div data-aos="fade-up" data-aos-delay="300" data-aos-anchor-placement="center-bottom" className="flex-shrink-0 m-6 w-72 group/raihan group/span relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-2xl">
             <div className="relative flex items-center justify-center">
               <img
                 className="relative w-full object-cover"
@@ -608,7 +715,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center">
+        <div data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-bottom" className="flex items-center justify-center">
           <div className="flex-shrink-0 m-6 w-72 group/raihan group/span relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-2xl">
             <div className="relative flex items-center justify-center">
               <img
@@ -647,7 +754,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex-shrink-0 m-6 w-72 group/raihan group/span relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-2xl">
+          <div data-aos="fade-up" data-aos-delay="300" data-aos-anchor-placement="top-bottom" className="flex-shrink-0 m-6 w-72 group/raihan group/span relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-2xl">
             <div className="relative flex items-center justify-center">
               <img
                 className="relative w-full object-cover"
@@ -723,7 +830,10 @@ export default function Home() {
                   className="focus:outline-none bg-transparent border-b-2 border-gray-500"
                   style={{ resize: "none" }}
                 ></textarea>
-                <button type="submit" className="bg-gray-500 py-2 rounded-md  hover:bg-GRAY-500/75 hover:-translate-y-1 transition-all ease-in-out shadow-xl">
+                <button
+                  type="submit"
+                  className="bg-gray-500 py-2 rounded-md  hover:bg-GRAY-500/75 hover:-translate-y-1 transition-all ease-in-out shadow-xl"
+                >
                   Contact Us
                 </button>
               </form>
